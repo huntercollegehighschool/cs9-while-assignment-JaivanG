@@ -11,3 +11,12 @@ Hunter
 Hunter
 
 '''
+word=input("Enter a word: ")
+printed=int(input("How many times do you want to print the word? "))
+prints=1
+while printed>= prints:
+  prints=prints+1
+  print(word)
+
+if prints<printed:
+  print("that's it")
